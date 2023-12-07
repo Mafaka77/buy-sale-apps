@@ -1,6 +1,6 @@
 class Routes {
-  static String BASE_URL = 'http://10.180.243.77:8000/api/';
-  static String STORAGE_URL = 'http://10.180.243.77:8000/storage/';
+  static String BASE_URL = 'http://127.0.0.1:8000/api/';
+  static String STORAGE_URL = 'http://127.0.0.1:8000/storage/';
   static String SEND_OTP = '${BASE_URL}send-otp';
   static String VERIFY_OTP(id) => '${BASE_URL}verify-otp/$id';
   static String USER_DETAILS = '${BASE_URL}user-details';
